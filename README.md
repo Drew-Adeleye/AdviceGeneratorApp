@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-advice-generator-using-css-flexbox-6DByNNleq5)
+- Live Site URL: [live URL](https://advicegen.pages.dev/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Drew-Adeleye](https://www.frontendmentor.io/profile/Drew-Adeleye)
-- Twitter - [@_Andrewiiii](https://twitter.com/_Andrewiiii)
+- Twitter - [@\_Andrewiiii](https://twitter.com/_Andrewiiii)
