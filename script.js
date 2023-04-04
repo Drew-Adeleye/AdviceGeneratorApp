@@ -1,9 +1,12 @@
 const adviceBtn = document.getElementById("btn");
 const adviceH2 = document.querySelector("[data-advice]");
 
+document.addEventListener("DOMContentLoaded", () => {
+  getAdvice();
+});
+
 adviceBtn.addEventListener("click", () => {
   getAdvice();
-  console.log("click registered");
 });
 
 async function getAdvice() {
@@ -16,4 +19,3 @@ async function getAdvice() {
 function updateDom(advice) {
   adviceH2.innerText = advice;
 }
-
