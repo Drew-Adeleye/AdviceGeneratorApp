@@ -1,16 +1,19 @@
 const adviceBtn = document.getElementById("btn");
-console.log(adviceBtn);
+const adviceH2 = document.querySelector("[data-advice]");
 
-generateBtn.addEventListener("click", () => {
+adviceBtn.addEventListener("click", () => {
   getAdvice();
-  console.log(generateBtn);
+  console.log("click registered");
 });
 
 async function getAdvice() {
-  const response = await fetch("https://api.adviceslip.com");
+  const response = await fetch("https://api.adviceslip.com/advice");
   const data = await response.json();
-  console.log(data);
-  console.log("hah");
+
+  updateDom(data.slip.advice);
 }
 
-// https://api.adviceslip.com
+function updateDom(advice) {
+  adviceH2.innerText = advice;
+}
+
